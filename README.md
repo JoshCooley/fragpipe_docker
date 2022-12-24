@@ -28,7 +28,7 @@ You may also run in headless mode by setting the `HEADLESS` environment variable
 
 ### Environment variables
 
-* **`HEADLESS`**: If set (to any value, including an empty string), FragPipe will start in headless mode. You must also set MANIFEST_FILE and WORKFLOW_FILE variables in headless mode.
+* **`HEADLESS`**: If set (to any value, including an empty string), FragPipe will start in headless mode. You must also set `MANIFEST_FILE` and `WORKFLOW_FILE` variables in headless mode.
 * **`MANIFEST_FILE`**: Absolute path to your manifest file. This file must be mounted in the container. This is **not** a path on the host filesystem.
 * **`WORKFLOW_FILE`**: Absolute path to your workflow file. This file must be mounted in the container. This is **not** a path on the host filesystem.
 
